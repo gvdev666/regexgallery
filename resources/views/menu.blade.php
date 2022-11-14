@@ -51,7 +51,7 @@
                   <div class="btn-group">
                         <a href="/images/{{ $image->id }}" class="btn btn-sm btn-outline-secondary">View</a>
                     </div>
-                    <small class="text-muted">9 mins</small>
+                    <small class="text-muted">{{ $image->description}}</small>
                   </div>
                 </div>
               </div>
